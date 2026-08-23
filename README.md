@@ -262,6 +262,8 @@ The Power BI report contains two analytical pages.
 
 ### Page 1 — Cost & Encounter Overview
 
+![Alt text](https://github.com/mdsameer-sys/Healthcare-Analysis-Project-PowerBI/blob/b3e9aeceb00f493bca262eb0f33009502a6d9616/cost_encounter_overview)
+
 This page provides the primary healthcare cost and utilization view.
 
 #### KPI Cards
