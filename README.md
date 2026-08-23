@@ -306,6 +306,8 @@ This provides visibility into financial exposure by payer and diagnosis/reason.
 
 ### Page 2 — Cost Trends & Geographic Insights
 
+![Alt text](https://github.com/mdsameer-sys/Healthcare-Analysis-Project-PowerBI/blob/c330789c7c9b151750d08a7ef0d1b9efcc9dc602/cost_trend_geographic)
+
 The second page focuses on **time trends, procedures, payer performance, and geographic patterns**.
 
 #### Procedure Cost Trend
