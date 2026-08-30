@@ -483,38 +483,6 @@ Use encounter volume and average cost by location to support resource allocation
 
 ---
 
-## ▶️ How to Use / View the Dashboard
-
-### Power BI Desktop
-
-1. Download the `.pbix` file from the repository.
-2. Open **`Hospital_Analysis.pbix`** using Power BI Desktop.
-3. Start with **Cost & Encounter Overview**.
-4. Review the KPI cards for the selected filter context.
-5. Use the available slicers to filter by year, payer, or encounter class.
-6. Navigate to **Cost Trends & Geographic Insights**.
-7. Use the Top/Bottom parameter to change the procedure/reason analysis.
-8. Interact with the map and charts to investigate geographic and cost patterns.
-
-### Recommended Exploration Flow
-
-```text
-Executive KPIs
-      ↓
-Encounter Cost Distribution
-      ↓
-High-Cost Patient Analysis
-      ↓
-Payer & Uncovered Cost Analysis
-      ↓
-Procedure Cost Trends
-      ↓
-Geographic Insights
-```
-
-> **Note:** Power BI Desktop is required to open and interact with the `.pbix` file locally.
-
----
 
 ## 🏁 Conclusion
 
