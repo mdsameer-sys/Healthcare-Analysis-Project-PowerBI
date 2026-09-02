@@ -144,7 +144,6 @@ The patient table provides demographic and geographic dimensions including:
 | Tool / Technology | Purpose |
 |---|---|
 | **Python** | Initial data cleaning and preparation |
-| **Pandas** | Data manipulation and cleaning |
 | **Power BI Desktop** | Dashboard development and interactive visualization |
 | **Power Query** | Data preparation and transformation |
 | **DAX** | KPI calculations and analytical measures |
@@ -156,13 +155,13 @@ The patient table provides demographic and geographic dimensions including:
 
 ## 🧹 Data Preparation
 
- Data Preparation
 
 The raw healthcare datasets were prepared through a multi-stage data preparation workflow before being used for analysis and dashboard development.
 
 Python (Pandas) — Initial Data Cleaning
 
 Python and Pandas were used for initial data cleaning and preparation of the raw healthcare datasets before the analytical workflow.
+
 SQL Server — Data Analysis
 
 SQL Server was used to explore the relational datasets, validate business questions, and perform analytical queries across healthcare tables.
