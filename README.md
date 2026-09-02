@@ -8,7 +8,7 @@
 
 Healthcare organizations generate large volumes of patient, encounter, procedure, and payer data. Without a consolidated analytical view, it can be difficult to identify **high-cost utilization, financial exposure, payer coverage gaps, and operational patterns**.
 
-This project transforms healthcare records into an interactive **Power BI decision-support dashboard**. The solution combines encounter, patient, procedure, payer, organization, and date information to analyze the financial and operational drivers of healthcare utilization.
+This project transforms healthcare records into an interactive Power BI decision-support dashboard. The solution combines Python for initial data cleaning and preparation, SQL Server for data analysis and business-question validation, and Power BI for transformation, data modeling, DAX calculations, and interactive visualization across encounter, patient, procedure, payer, organization, and date information.
 
 ---
 ## 🔗 Live Power BI Dashboard
@@ -143,6 +143,8 @@ The patient table provides demographic and geographic dimensions including:
 
 | Tool / Technology | Purpose |
 |---|---|
+| **Python** | Initial data cleaning and preparation |
+| **Pandas** | Data manipulation and cleaning |
 | **Power BI Desktop** | Dashboard development and interactive visualization |
 | **Power Query** | Data preparation and transformation |
 | **DAX** | KPI calculations and analytical measures |
@@ -154,7 +156,20 @@ The patient table provides demographic and geographic dimensions including:
 
 ## 🧹 Data Preparation
 
-The raw healthcare tables were prepared before being used in the dashboard.
+ Data Preparation
+
+The raw healthcare datasets were prepared through a multi-stage data preparation workflow before being used for analysis and dashboard development.
+
+Python (Pandas) — Initial Data Cleaning
+
+Python and Pandas were used for initial data cleaning and preparation of the raw healthcare datasets before the analytical workflow.
+SQL Server — Data Analysis
+
+SQL Server was used to explore the relational datasets, validate business questions, and perform analytical queries across healthcare tables.
+
+Power Query — Additional Transformation
+
+Power Query was used within Power BI for additional transformation and preparation required for the reporting and analytical model.
 
 ### Key Preparation Activities
 
